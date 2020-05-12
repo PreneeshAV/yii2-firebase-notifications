@@ -1,9 +1,10 @@
 # yii2-firebase-notifications
-Send firebase notification from Yii2 application 
+Send firebase notification from Yii2 application
 
 ==
 
 Send firebase notification from Yii2 application
+This extension enables to send firebase notification to single user to give user specific updates.
 
 Installation
 ------------
@@ -28,7 +29,8 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, simply use it in your code :
+
 Firebase cloud messageing Server key is required to use the extension,
 which can be obtained from Firebase console -> Project Overview -> Settings -> Cloud Messaging
 ```php
