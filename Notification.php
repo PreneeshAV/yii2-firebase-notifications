@@ -93,3 +93,4 @@ class Notification extends BaseObject
         $body = ArrayHelper::merge($body, $options);
         return $this->send($body);
     }
+}
