@@ -1,12 +1,10 @@
-
 <?php
-
 namespace preneesh\FirebaseNotifications;
 
-use yii\base\BaseObject;
+
 use Yii;
 use yii\helpers\ArrayHelper;
-
+use yii\base\BaseObject;
 /**
  * @author Preneesh AV
  */

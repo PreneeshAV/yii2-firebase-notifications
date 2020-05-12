@@ -32,7 +32,8 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 
+use preneesh\FirebaseNotifications\Notification;
 
-$service = new FirebaseNotifications('YOUR_KEY');
+$service = new Notification('YOUR_KEY');
 
 $service->send($tokens,$message);
